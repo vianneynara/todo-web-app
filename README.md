@@ -12,9 +12,26 @@ Full API documentation can be found in [**postman documentation
 
 ### Register
 
-| State      | Image                                        |
-|------------|----------------------------------------------|
-| Unfilled   | ![register](_images/register-unfilled.png)   |
-| Submitting | ![register](_images/register-submitting.png) |
-| Success    | ![register](_images/register-success.png)    |
-| Error      | ![register](_images/register-error.png)      |
+| State    | Image                                           |
+|----------|-------------------------------------------------|
+| Unfilled | ![register](_images/auth/register-unfilled.png) |
+| Success  | ![register](_images/auth/register-success.png)  |
+| Error    | ![register](_images/auth/register-error.png)    |
+
+### Login
+
+| State    | Image                                     |
+|----------|-------------------------------------------|
+| Unfilled | ![login](_images/auth/login-unfilled.png) |
+| Success  | ![login](_images/auth/login-success.png)  |
+| Failed   | ![login](_images/auth/login-failed.png)   |
+| Error    | ![login](_images/auth/login-error.png)    |
+
+### Todo Dashboard
+
+| State  | Image                                                                                       |
+|--------|---------------------------------------------------------------------------------------------|
+| Idle   | ![dashboard](_images/dashboard/idle.png)                                                    |
+| Add    | ![dashboard](_images/dashboard/add1.png)<br/>![dashboard](_images/dashboard/add2.png)       |
+| Toggle | ![dashboard](_images/dashboard/toggle1.png)<br/>![dashboard](_images/dashboard/toggle2.png) |
+| Delete | ![dashboard](_images/dashboard/delete1.png)<br/>![dashboard](_images/dashboard/delete2.png) |
